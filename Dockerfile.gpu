@@ -1,0 +1,5 @@
+From registry.cn-shenzhen.aliyuncs.com/gaussh_test/sensingx-pytorch:1.10.2-cuda11.3-ubuntu20.04
+
+ADD . /app
+
+RUN pip install -r requirements.txt
